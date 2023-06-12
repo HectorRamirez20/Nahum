@@ -1,0 +1,59 @@
+<HTML>
+    <HEAD>
+    <TITLE>Formulario</TITLE>
+    
+    
+    <left>
+        <body bgcolor="#CDAB81">
+            <FONT COLOR="black" SIZE="10" FACE="Times New Roman"><b>Formulario</b></FONT> <br><br><br>
+            <form type="text" action="mailto:alecom@hotmail.com" method="post">
+            <input type="radio" name="naturaleza" value="Recomendación" /> Recomendación
+            <input type="radio" name="naturaleza" value="Oferta trabajo" /> Oferta trabajo
+            <input type="radio" name="naturaleza" value="Comunicación" /> Comunicación
+            <input type="radio" name="naturaleza" value="Queja" /> Queja
+            </p>
+            <br>
+            <p>
+            Educación
+            <select name="especificar">
+            <option value="Básica">Básica</option>
+        
+        
+        <option value="Preparatoria">Preparatoria</option>
+        <option value="Técnica" selected>Técnica</option>
+        <option value="Universidad">Universidad</option>
+        </select> <br><br><br>
+        </p>
+        
+        <p>
+        Comentarios <br>
+        <textarea name="Comentarios" rows="10" cols="50" wrap=""></textarea>
+        </p>
+        <p>
+        ¿Cómo puedo comunicarme contigo? <br><br><br>
+        <table>
+        <tr> <td>Nombre: </td><td> <input type="text" name="nombre" size="30"/> </td></tr>
+        <tr> <td>Correo electrónico:</td><td> <input type="text" name="correo" size="30"/> </td></tr>
+        <tr> <td>Teléfono:</td><td> <input type="text" name="telefóno" size="30"/> </td></tr>
+        </table>
+        </p>
+        <p>
+        <input type="checkbox" name="regresar" checked="checked"/> Comunícate conmigo vía correo electrónico.
+        </p>
+        <p>
+        <input type="checkbox" name="regresar"/> Comunícate conmigo por teléfono.
+        </p>
+        
+        
+        <p>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Borrar">
+            </p>
+            </TABLE>
+            <right><button onclick="location.href='index.html'">Regresar</button></right>
+    </left>
+    <br><br>
+
+        </BODY>
+    </HEAD>
+</HTML>
